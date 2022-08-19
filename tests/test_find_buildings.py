@@ -18,6 +18,7 @@ from question_1 import find_buildings
             ],
             1,
         ),
+        ([["B", "A"], ["E", "B"]], -1),
     ],
 )
 def test_find_buildings(input_map, expected_result):
